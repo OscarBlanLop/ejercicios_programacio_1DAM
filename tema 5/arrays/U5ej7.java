@@ -10,7 +10,7 @@ public class U5ej7 {
         double array[] = new double[100];
         for (int i = 0; i<array.length; i++)
             {
-                array[i] = Math.random();
+                array[i] = Math.random()*100;
                
                 if (r<= array[i]) 
                     {
