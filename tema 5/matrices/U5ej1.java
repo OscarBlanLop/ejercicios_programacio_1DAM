@@ -15,6 +15,8 @@ public class U5ej1 {
         // Mostrar la matriz
         for (int fila = 0; fila < matriz.length; fila++) {
             for (int columna = 0; columna < matriz.length; columna++) {
+                
+                // Dar forma a la hora de imprimir
                 System.out.printf("%3d ", matriz[fila][columna]);
             }
             System.out.println();
