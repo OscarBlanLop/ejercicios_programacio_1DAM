@@ -8,8 +8,8 @@ public class U5ej2 {
             //llenamos la fila de la iteracion del primer for
             for(int columna = 0; columna<matriz[fila].length; columna++)
             {    
-                int tumadre=(columna+1)*contador;
-                System.out.println(tumadre);
+                int variable=(columna+1)*contador;
+                System.out.println(variable);
             }
         }
     }
